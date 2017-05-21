@@ -22,7 +22,7 @@
 
 除此之外，Framework还通过各种manager来管理服务，而下表列出的manager都是由system_server启动。
 
-![Framework Managers](./Framework Managers.png)
+![Framework Managers](./Framework-Managers.png)
 
 通过ps命令，可以看到manager的PPID都是system_server的PID。
 
@@ -94,7 +94,7 @@ init执行的任务包括
 
 在init进程中，提供持久化，内存对应的键值对形式的配置参数。包括网络接口参数，音频参数和安全相关设置都依赖这些配置参数。
 
-![Android Property Service](./Android Property Service.png)
+![Android Property Service](./Android-Property-Service.png)
 
 通过`getprop`或`setprop`获取和设置。
 
@@ -133,7 +133,7 @@ init执行的任务包括
 
 接下来会讨论Android对标准的Linux Kernel做了一些修改。
 
-![Linux Changes by Android](./Linux Changes by Android.png)
+![Linux Changes by Android](./Linux-Changes-by-Android.png)
 
 #### Binder
 
@@ -147,7 +147,7 @@ init执行的任务包括
 
 Android kernel仍然使用基于Linux的kelnel-logging机制，同事它也使用另外被称为logger的子系统。logger通过logcat命令，用于查看日志信息，其中包括四种类型：main，radio，event和sustem。
 
-![Android logging system](./Android logging system.png)
+![Android logging system](./Android-logging-system.png)
 
 其中main输入的日志最多，它也是应用日志输出的来源。应用通过android.util.Log指定日志的优先级，Log.i代表information，Log.d代表debug，Log.e代表error（分级与syslog一致）。
 
