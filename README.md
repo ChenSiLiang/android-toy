@@ -4,7 +4,9 @@
 
 2.[Android架构分层详解](https://github.com/ChenSiLiang/securdroid/blob/master/2.%E6%9E%B6%E6%9E%84%E5%88%86%E5%B1%82%E8%AF%A6%E8%A7%A3/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Android%E5%B1%82%E7%BA%A7.md)
 
-#### cool website
+3.[Android内存公有划分与boot](https://github.com/ChenSiLiang/securdroid/blob/master/3.%E5%86%85%E5%AD%98%E5%85%AC%E6%9C%89%E5%88%92%E5%88%86%E4%B8%8Eboot/%E5%86%85%E5%AD%98%E5%85%AC%E6%9C%89%E5%88%92%E5%88%86%E4%B8%8Eboot.md)
+
+### cool website
 
 [can I use?](http://caniuse.com/#home)-Browser support tables for modern web technologies（浏览器支持的现代网络技术表）
 
