@@ -8,6 +8,8 @@
 
 [4.攻击定义和了解网络攻击](https://github.com/ChenSiLiang/securdroid/tree/master/4.%E4%B8%80%E8%88%AC%E6%94%BB%E5%87%BB%E5%92%8C%E7%BD%91%E7%BB%9C%E6%94%BB%E5%87%BB)
 
+[5.剖析Activity、Window、ViewRootImpl和View之间的关系](https://github.com/ChenSiLiang/securdroid/blob/master/5.%E5%89%96%E6%9E%90Activity%E3%80%81Window%E3%80%81ViewRootImpl%E5%92%8CView%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/%E5%89%96%E6%9E%90Activity%E3%80%81Window%E3%80%81ViewRootImpl%E5%92%8CView%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB.md)
+
 ### cool website
 
 [can I use?](http://caniuse.com/#home)-Browser support tables for modern web technologies（浏览器支持的现代网络技术表）
