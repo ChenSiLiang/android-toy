@@ -10,7 +10,9 @@
 
 [5.剖析Activity、Window、ViewRootImpl和View之间的关系](https://github.com/ChenSiLiang/securdroid/blob/master/5.%E5%89%96%E6%9E%90Activity%E3%80%81Window%E3%80%81ViewRootImpl%E5%92%8CView%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/%E5%89%96%E6%9E%90Activity%E3%80%81Window%E3%80%81ViewRootImpl%E5%92%8CView%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB.md)
 
-[6.绘图基础--Canvas和Drawable]()
+[6.绘图基础--Canvas和Drawable](https://github.com/ChenSiLiang/securdroid/blob/master/6.%C2%A0%E7%BB%98%E5%9B%BE%E5%9F%BA%E7%A1%80--Canvas%E4%B8%8EDrawable/Canvas%E3%80%81Bitmap.md)
+
+[7.理解Android编译过程](https://github.com/ChenSiLiang/securdroid/blob/master/7.Android%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B/%E7%90%86%E8%A7%A3Android%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B.md)
 
 ### cool website
 
