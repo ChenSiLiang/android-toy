@@ -23,6 +23,24 @@ Glide作为一个非常优秀的图片加载框架，对上述问题都解决得
 
 ## 核心模块
 
+### 注册组件
+
+- [`ModelLoader`](https://muyangmin.github.io/glide-docs-cn/javadocs/400/com/bumptech/glide/load/model/ModelLoaderFactory.html)，用于加载自定义的 Model(Url，Uri任意的 POJO )和 Data(InputStreams， FileDescriptors)。
+- [`ResourceDecoder`](https://muyangmin.github.io/glide-docs-cn/javadocs/400/com/bumptech/glide/load/ResourceDecoder.html)， 用于对新的 Resources(Drawables， Bitmaps)或新的Data 类型(InputStreams，FileDescriptors)进行解码。
+- [`Encoder`](https://muyangmin.github.io/glide-docs-cn/javadocs/400/com/bumptech/glide/load/Encoder.html)， 用于向 Glide 的磁盘缓存写 Data (InputStreams, FileDesciptors)。
+- [`ResourceTranscoder`](https://muyangmin.github.io/glide-docs-cn/javadocs/400/com/bumptech/glide/load/resource/transcode/ResourceTranscoder.html)，用于在不同的资源类型之间做转换，例如，从 BitmapResource 转换为 DrawableResource 。
+- [`ResourceEncoder`](https://muyangmin.github.io/glide-docs-cn/javadocs/400/com/bumptech/glide/load/ResourceEncoder.html)，用于向 Glide 的磁盘缓存写 Resources(BitmapResource， DrawableResource)。
+
+### 剖析请求
+
+每个请求的加载都是从
+
+- Model（如String）有模型加载器（ModelLoader）处理为Data（如InputStream）
+- Data通过ResourceDecoder处理为资源Resource，
+- 可选的转码步骤，Resource通过资源转码器ResourceTranscoder处理为转码后资源Transcoded Resource。
+
+编码器Encoder在步骤2之前往磁盘缓存写入数据，资源编码器ResourceEncoder在步骤3之前往磁盘缓存里写入数据。
+
 ### 从普通调用说起
 
 Glide新版本的调用有所改变，可以通过注解生成的`GlideApp`来作为入口，原先的`Glide`也能用，只是API有所变化，这里用GlideApp作为例子。
@@ -56,7 +74,7 @@ Engine.load方法所做的事
 - 检查是否有正在加载中的图片，有则返回
 - 开始一个新的加载过程
 
-活跃资源是指一个请求至少被加载成功一次且未被释放，一旦消费者把资源释放掉，则会移入缓存。如果从缓存中加载资源，则资源会变活跃。如果资源从缓存中移除，会被重用。对于消费者而言，没有强制要求释放资源，所以活跃资源都以弱引用的方式持有。
+活跃资源是指一个请求至少被加载成功一次且未被释放（有另一个View正在展示这张图片），一旦消费者把资源释放掉，则会移入缓存。如果从缓存中加载资源，则资源会变活跃。如果资源从缓存中移除，会被重用。对于消费者而言，没有强制要求释放资源，所以活跃资源都以弱引用的方式持有。
 
 #### loadFromActiveResource
 
