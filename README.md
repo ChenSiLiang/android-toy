@@ -20,6 +20,8 @@
 
 [10.Glide源码解析（2）-- 缓存和对象池](https://github.com/ChenSiLiang/android-toy/blob/master/Glide%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%EF%BC%882%EF%BC%89--%20%E7%BC%93%E5%AD%98%E5%92%8C%E5%AF%B9%E8%B1%A1%E6%B1%A0/Glide-%E7%BC%93%E5%AD%98%E5%92%8C%E5%AF%B9%E8%B1%A1%E6%B1%A0.md)
 
+[11.RecycleView性能优化（持续更新中）](https://github.com/ChenSiLiang/android-toy/blob/master/RecycleView%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/RecycleView%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
+
 ### cool website
 
 [can I use?](http://caniuse.com/#home)-Browser support tables for modern web technologies（浏览器支持的现代网络技术表）
