@@ -22,6 +22,8 @@
 
 [11.RecycleView性能优化（持续更新中）](https://github.com/ChenSiLiang/android-toy/blob/master/RecycleView%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/RecycleView%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
 
+[12.Shadow源码解析笔记](<https://github.com/ChenSiLiang/android-toy/blob/master/Shadow%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%E7%AC%94%E8%AE%B0/Shadow%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md>)
+
 ### cool website
 
 [can I use?](http://caniuse.com/#home)-Browser support tables for modern web technologies（浏览器支持的现代网络技术表）
